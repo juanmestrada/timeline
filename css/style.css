@@ -1,0 +1,103 @@
+*{
+	box-sizing:border-box;
+}
+
+/*div{
+	display: block;
+}*/
+body{
+	width: 80%;
+}
+
+p{
+	background-color: #afdcf8;
+	border-radius: 5px; 
+	padding:0 10px; 
+	padding-bottom: 10px;	
+}
+
+h1{
+	padding-left: 15px;
+	padding-top: 10px;
+}
+
+li{
+	list-style: none;
+}
+
+
+span{
+	display: block;
+	font-size: 32px;
+}
+
+hr{
+	width: 90%
+}
+.date{
+	display:block;
+	font-size: 14px;
+	text-align: right;
+	color: #afdcf8;
+	position: absolute;
+	width: 10%;
+	display: block;
+	left:-160px;
+}
+
+.icon{
+	width: 50px;
+	height:50px;
+	position: absolute;
+  	border:9px solid #afdcf8;
+  	border-radius: 50%;
+  	left: -35px;
+}
+#phone{
+	background: url(https://cdn2.iconfinder.com/data/icons/picons-essentials/71/mobile-512.png) no-repeat;
+	background-size:contain;
+	background-color: #3594cb;
+}
+
+#screen{
+	background: url(http://megaicons.net/static/img/icons_sizes/8/178/512/computer-hardware-monitor-icon.png);
+	background-repeat: no-repeat;
+	background-size: 75%;
+	background-image: center;
+	background-color: #3594cb;
+}
+
+#email{
+	background-image: url(http://www.dvip.org/assets/images/logos/mail.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #3594cb;
+	}
+.content{
+	background-color: #afdcf8;
+	border-radius: 5px;
+	max-width:80ch;
+	margin:auto;
+	color:white; 
+	margin-top: 5px;
+}
+
+#middle{
+	background-color: #3594cb;
+}
+.timeline{
+	margin-left:30ch;
+	position: relative;
+}
+.timeline:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 100%;
+	width: 1rem;
+	height: 100%;
+	background: #afdcf8;
+	margin-left: -30px;
+}
+
